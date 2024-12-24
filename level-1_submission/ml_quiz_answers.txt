@@ -1,0 +1,23 @@
+﻿Q1) Define supervised learning from learners perspective? Provide an example.
+Supervised learning is a type of machine learning where the model learns from input-output pairs, and uses these data only to train. It is a method where the algorithm learns to map input data on its own and find optimal output depending upon given labels.
+Example: Prediction of house prices considering features like size, location and number_of_rooms In other words.
+Q2) What is the difference between Supervised and Unsupervised Learning?
+Supervised Learning
+	Unsupervised Learning
+	Clearly labeled data (input-output pairs).
+	Uses unlabeled data without predefined labels.
+	The model learns to predict outputs from inputs based on these labels.
+	Identifies patterns, clusters, or structures in data.
+	Used for tasks like classification and regression
+	Used for tasks like clustering and anomaly detection.
+	Metrics like accuracy, precision, recall 
+	Difficult to evaluate; uses methods like clustering accuracy.
+	Q3) How is reinforcement learning different from supervised learning?
+Reinforcement learning is similar to but at the same time differing from supervised and reraltaedproblemresentations in regards of how it interacts with data:
+Reinforcement Learning:
+* An environment where the model can learn. For instance, it either reaps rewards or faces repercussions based on the actions.
+* It goes around the environment seeking to cause as much reward money to accumulate over time.
+* A robot that learns to walk with trial and error.
+Supervised Learning:
+* It works by learning from a training set of labeled examples. ​It does not wander or participate in exploring an environment.
+* Example:- Predicting stocks based on previous historical data
